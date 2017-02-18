@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#60CBB1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kushagra.com.shakeflashlight.MainActivity"
+    tools:showIn="@layout/activity_main2">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageView"
+        android:layout_margin="10dp"
+        android:src="@drawable/kushagra"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kushagra Saxena"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FF000000"
+        android:id="@+id/textView2"
+        android:layout_toRightOf="@+id/imageView"
+        />    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="kushagrasaxena03@gmail.com\nContact Number: +919761194180"
+    android:textSize="15sp"
+    android:layout_marginTop="10dp"
+    android:textColor="#FF000000"
+    android:layout_below="@+id/textView2"
+    android:layout_alignLeft="@+id/textView2"
+    android:layout_alignStart="@+id/textView2" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shake Flashlight</string>
+    <string name="action_start">Start Background Service</string>
+    <string name="action_stop">Stop Background Service</string>
+    <string name="action_developer">Developer</string>
+    <string name="title_activity_main2">Developer</string>
+</resources>
